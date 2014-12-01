@@ -49,5 +49,14 @@ public class Variables
 
         Debug.Log( (z >= 150) ? "Z is greater than 150" : " Z is less than 150");
 
+        for ( /* initializer */ int i = 0 ; /* condition */ i < 10 ; /*increment*/ i++  )
+        {
+            /* statements */
+            Debug.Log(i);
+        }
+
+        for (int i =10; i > 0; i--)
+        { Debug.Log(i); }
+
     }
 }
