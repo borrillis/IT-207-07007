@@ -38,5 +38,16 @@ public class Variables
         Debug.Log(Name + " " + Surname);
         Debug.Log(String.Concat( Name, " ", Surname));
 
+        if ( /*condition*/ z <= 200 )
+        { /* true part */
+            Debug.Log("Z is less than 200");
+        }
+        else
+        { /* false part */
+            Debug.Log(" Z is greater than 200");
+        }
+
+        Debug.Log( (z >= 150) ? "Z is greater than 150" : " Z is less than 150");
+
     }
 }
