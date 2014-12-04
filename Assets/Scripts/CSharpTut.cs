@@ -58,5 +58,15 @@ public class Variables
         for (int i =10; i > 0; i--)
         { Debug.Log(i); }
 
+        /* Pre-condition while */
+        /* execute 0-* */
+        bool isLooping = true;
+        int counter = 0;
+        while ( /* condition */  isLooping)
+        {
+            /* loop body */
+            Debug.Log(counter++);
+            isLooping = counter <= 100;
+        }
     }
 }
